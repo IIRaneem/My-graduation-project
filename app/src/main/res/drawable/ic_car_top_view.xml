@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="32dp"
+    android:viewportWidth="64"
+    android:viewportHeight="32">
+
+    <!-- جسم السيارة -->
+    <path
+        android:fillColor="#4F5D7E"
+        android:pathData="M 12 6 C 6 6 4 8 4 16 C 4 24 6 26 12 26 L 52 26 C 58 26 60 24 60 16 C 60 8 58 6 52 6 Z"/>
+
+    <!-- الزجاج الأمامي -->
+    <path
+        android:fillColor="#1F232D"
+        android:pathData="M 46 8 L 46 24 L 38 22 L 38 10 Z" />
+
+    <!-- الزجاج الخلفي -->
+    <path
+        android:fillColor="#1F232D"
+        android:pathData="M 18 8 L 18 24 L 26 22 L 26 10 Z" />
+
+    <!-- سقف السيارة -->
+    <path
+        android:fillColor="#5A6A8C"
+        android:pathData="M 26 10 L 26 22 L 38 22 L 38 10 Z" />
+
+    <!-- المصابيح الأمامية -->
+    <path android:fillColor="#FFF59D" android:pathData="M 58 8 L 60 8 L 60 11 L 58 11 Z" />
+    <path android:fillColor="#FFF59D" android:pathData="M 58 21 L 60 21 L 60 24 L 58 24 Z" />
+
+    <!-- المصابيح الخلفية -->
+    <path android:fillColor="#E53935" android:pathData="M 4 8 L 6 8 L 6 11 L 4 11 Z" />
+    <path android:fillColor="#E53935" android:pathData="M 4 21 L 6 21 L 6 24 L 4 24 Z" />
+</vector>
